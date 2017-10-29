@@ -14,8 +14,8 @@
     <meta property="og:description" content="{{ $site_description or '' }}">
     <meta name="theme-color" content="#52768e">
     <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.js"></script>
-    <script src="http://owk45isdc.bkt.clouddn.com/js/jquery.warpdrive.min.js"></script>
+    <link href="https://cdn.bootcss.com/jquery/1.9.1/jquery.js" rel="script">
+    <link href="http://owk45isdc.bkt.clouddn.com/js/jquery.warpdrive.min.js">
     <link href="{{ elixir('css/home.css') }}" rel="stylesheet">
     @include('widget.google_analytics')
 </head>
