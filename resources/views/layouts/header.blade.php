@@ -17,7 +17,7 @@
         height: 144px;
     }
 </style>
-<header class="main-header">
+<header class="main-header" style="color: #000;">
     <canvas id="c"></canvas>
     <div class="container-fluid" style="margin-top: -15px">
         <nav class="navbar site-navbar" role="navigation">
