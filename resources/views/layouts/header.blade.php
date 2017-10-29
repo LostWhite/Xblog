@@ -19,7 +19,9 @@
     }
 </style>
 <header class="main-header" style="background-color: #000;">
-    <canvas style="background-color: #1a252d" id="holder"></canvas>
+    <div id="holder">
+        <canvas style="background-color: #1a252d"></canvas>
+    </div>
     <div class="container-fluid" style="margin-top: -15px">
         <nav class="navbar site-navbar" role="navigation">
             <div class="navbar-header">
