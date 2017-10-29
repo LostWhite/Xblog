@@ -14,6 +14,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        height: 144px;
     }
 </style>
 <header class="main-header">
