@@ -4,14 +4,16 @@
             background: url("{{ $header_bg_image }}") no-repeat center center;
             background-size: cover;
         }
-        canvas {
-            z-index: -1;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
     </style>
 @endif
+<style>
+    canvas {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+</style>
 <header class="bg-placeholder">
     <canvas id="c"></canvas>
     <div class="container-fluid" style="margin-top: -15px">
@@ -165,7 +167,7 @@
         this.cumulativeTime = 0;
 
         this.beginPhase();
-    }
+    };
     Line.prototype.beginPhase = function(){
 
         this.x += this.addedX;
@@ -180,7 +182,7 @@
 
         if( Math.random() < opts.dieChance || this.x > dieX || this.x < -dieX || this.y > dieY || this.y < -dieY )
             this.reset();
-    }
+    };
     Line.prototype.step = function(){
 
         ++this.time;
@@ -200,7 +202,7 @@
 
         if( Math.random() < opts.sparkChance )
             ctx.fillRect( opts.cx + ( this.x + x ) * opts.len + Math.random() * opts.sparkDist * ( Math.random() < .5 ? 1 : -1 ) - opts.sparkSize / 2, opts.cy + ( this.y + y ) * opts.len + Math.random() * opts.sparkDist * ( Math.random() < .5 ? 1 : -1 ) - opts.sparkSize / 2, opts.sparkSize, opts.sparkSize )
-    }
+    };
     loop();
 
     window.addEventListener( 'resize', function(){
