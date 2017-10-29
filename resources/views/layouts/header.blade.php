@@ -150,7 +150,7 @@
         //init
 
         //var warpdrive = new WarpDrive( document.getElementById( 'holder' ) );
-        //var warpdrive = new WarpDrive( document.getElementById( 'holder' ), settings );
+        var warpdrive = new WarpDrive( document.getElementById( 'holder' ), settings );
 
         //------------------------------------------------------------------------
 
@@ -158,8 +158,8 @@
 
         //init
 
-        $('#holder').warpDrive();
-        $('#holder').warpDrive(settings);
+//        $('#holder').warpDrive();
+//        $('#holder').warpDrive(settings);
 
         //------------------------------------------------------------------------
 
