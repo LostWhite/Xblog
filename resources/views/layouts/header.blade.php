@@ -19,7 +19,7 @@
     }
 </style>
 <header class="main-header" style="background-color: #000;">
-    <canvas style="background-color: #1a252d"></canvas>
+    <canvas style="background-color: #1a252d" id="holder"></canvas>
     <div class="container-fluid" style="margin-top: -15px">
         <nav class="navbar site-navbar" role="navigation">
             <div class="navbar-header">
@@ -104,8 +104,8 @@
     $( document ).ready( function() {
 
         var settings = {
-            width: 480,
-            height: 480,
+            width: 1920,
+            height: 144,
             autoResize: false,
             autoResizeMinWidth: null,
             autoResizeMaxWidth: null,
@@ -150,7 +150,7 @@
         //init
 
         //var warpdrive = new WarpDrive( document.getElementById( 'holder' ) );
-        var warpdrive = new WarpDrive( document.getElementById( 'holder' ), settings );
+        //var warpdrive = new WarpDrive( document.getElementById( 'holder' ), settings );
 
         //------------------------------------------------------------------------
 
@@ -158,8 +158,8 @@
 
         //init
 
-        //$( '#holder' ).warpDrive();
-        //$( '#holder' ).warpDrive( settings );
+        $('#holder').warpDrive();
+        $('#holder').warpDrive(settings);
 
         //------------------------------------------------------------------------
 
