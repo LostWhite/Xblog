@@ -15,9 +15,10 @@
         top: 0;
         left: 0;
         height: 144px;
+        width: 700px;
     }
 </style>
-<header class="main-header" style="color: #000;">
+<header class="main-header" style="background-color: #000;">
     <canvas id="c"></canvas>
     <div class="container-fluid" style="margin-top: -15px">
         <nav class="navbar site-navbar" role="navigation">
@@ -95,7 +96,7 @@
             </div>
         </nav>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" style="position:relative;">
         <div class="description">{{ $description or 'Stay Hungry. Stay Foolish.' }}</div>
     </div>
 </header>
