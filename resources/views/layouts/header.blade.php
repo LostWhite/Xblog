@@ -14,7 +14,7 @@
         left: 0;
     }
 </style>
-<header class="bg-placeholder">
+<header class="main-header bg-placeholder">
     <canvas id="c"></canvas>
     <div class="container-fluid" style="margin-top: -15px">
         <nav class="navbar navbar-dark navbar-expand-lg">
