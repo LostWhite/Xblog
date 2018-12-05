@@ -16,8 +16,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.js" ></script>
-    <script src="http://owk45isdc.bkt.clouddn.com/js/jquery.warpdrive.min.js"></script>
-    <script src="http://owk45isdc.bkt.clouddn.com/js/jquery.warpdrive.js"></script>
+    <script src="http://images.mingpianxia.cn/js/jquery.warpdrive.min.js"></script>
+    <script src="http://images.mingpianxia.cn/js/jquery.warpdrive.js"></script>
     @if(isset($site_css) && $site_css)
         <link href="{{ $site_css }}" rel="stylesheet">
     @else
